@@ -1,6 +1,8 @@
 # ML_Freshwater
 Repository for ML project 2: Improving Freshwater Quality Measurements through Machine Learning
 
+- Authors: Jimmy Vuadens. Nicolas Riche, Thomas Rivasseau
+
 - File Descriptions:
   - sdo1: Plynlimon study data set
   - UHF: 7-hour edited Plynlimon study values from UHF station (used for model fitting)
@@ -13,11 +15,11 @@ Repository for ML project 2: Improving Freshwater Quality Measurements through M
 - How To Run
   - Gradient_Descent and Normalized_Gradient_Descent: Self-contained, all functions needed are in the code. Running the notebook will provide outputs and pyplot comparisons of prediction and actual samples.
     - To test with different ions, replace variable "ion" with desired component (must be a column header of UHF data set). Outputs are at the bottom of the code (see pyplot for predictions).
-    - To switch between sampling intervals, replace value "Time_between_samples" with desired interval in days.
+    - To switch between sampling intervals, replace value "Days_between_samples" with desired interval in days.
   - Neural Network: The NN requires the latest Keras library.
     
     Create input features first by running the "Create_Excel" file.
-    - To switch between sampling intervals, replace value "Time_between_samples" with desired interval in days (in "Create_Excel").
+    - To switch between sampling intervals, replace value "Days_between_samples" with desired interval in days (in "Create_Excel").
     
     Run neural network by replacing variable "features" with: 'new_features' + str(Time_between_sample) + '.xlsx'. 
     Neural Network outputs pyplot prediction compared to test samples.
