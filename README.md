@@ -17,5 +17,6 @@ Repository for ML project 2: Improving Freshwater Quality Measurements through M
   - Neural Network: Create input excels first by running the "Create_Excel" file.
     - To switch between ions, replace variable "ion" with desired component (must be a column header of UHF data set). Outputs are at the bottom of the code (see pyplot for predictions).
     - To switch between sampling intervals, replace value "Time_between_samples" with desired interval in days.
+    
     Run neural network by replacing variable "features" with: 'new_features' + str(Time_between_sample) + '.xlsx'. 
     Neural Network outputs pyplot prediction compared to test samples.
