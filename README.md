@@ -15,7 +15,8 @@ Repository for ML project 2: Improving Freshwater Quality Measurements through M
     - To test with different ions, replace variable "ion" with desired component (must be a column header of UHF data set). Outputs are at the bottom of the code (see pyplot for predictions).
     - To switch between sampling intervals, replace value "Time_between_samples" with desired interval in days.
   - Neural Network: The NN requires the latest Keras library.
-     Create input excels first by running the "Create_Excel" file.
+    
+    Create input excels first by running the "Create_Excel" file.
     - To switch between ions, replace variable "ion" with desired component (must be a column header of UHF data set). Outputs are at the bottom of the code (see pyplot for predictions).
     - To switch between sampling intervals, replace value "Time_between_samples" with desired interval in days.
     
