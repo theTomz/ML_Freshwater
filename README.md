@@ -1,7 +1,7 @@
 # ML_Freshwater
 Repository for ML project 2: Improving Freshwater Quality Measurements through Machine Learning
 
-- Authors: Jimmy Vuadens. Nicolas Riche, Thomas Rivasseau
+- Authors: Jimmy Vuadens, Nicolas Riche, Thomas Rivasseau.
 
 - File Descriptions:
   - sdo1: Plynlimon study data set
